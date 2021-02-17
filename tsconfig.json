@@ -2,6 +2,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
+    "resolveJsonModule": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -12,12 +13,8 @@
     "baseUrl": "./",
     "incremental": true,
     "paths": {
-      "twaice/kinesis-producer": [
-        "libs/kinesis-producer/src"
-      ],
-      "twaice/kinesis-producer/*": [
-        "libs/kinesis-producer/src/*"
-      ]
+      "twaice/kinesis-producer": ["libs/kinesis-producer/src"],
+      "twaice/kinesis-producer/*": ["libs/kinesis-producer/src/*"]
     }
   }
 }

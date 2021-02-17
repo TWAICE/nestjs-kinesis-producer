@@ -1,18 +1,5 @@
 {
+  "language": "ts",
   "collection": "@nestjs/schematics",
-  "sourceRoot": "src",
-  "projects": {
-    "kinesis-producer": {
-      "type": "library",
-      "root": "libs/kinesis-producer",
-      "entryFile": "index",
-      "sourceRoot": "libs/kinesis-producer/src",
-      "compilerOptions": {
-        "tsConfigPath": "libs/kinesis-producer/tsconfig.lib.json"
-      }
-    }
-  },
-  "compilerOptions": {
-    "webpack": true
-  }
+  "sourceRoot": "src"
 }
